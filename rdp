@@ -28,7 +28,7 @@ Set password for your default user on the machine
 passwd
 
 Create a new user
-sudo adduser rdp-user
-passwd rdp-user
+sudo adduser sukanta
+passwd sukanta
 If necessary - add new user to the sudoers list
-sudo usermod -aG wheel username
+sudo usermod -aG wheel sukanta
