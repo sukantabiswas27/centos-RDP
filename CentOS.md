@@ -50,16 +50,16 @@ sudo firewall-cmd --reload
 
 #### Create a new user
 ```
-sudo adduser rdp-user
-passwd rdp-user
+sudo adduser sukanta
+passwd sukanta
 ```
 #### If necessary - add new user to the sudoers list 
 ```
-sudo usermod -aG wheel username
+sudo usermod -aG wheel sukanta
 ```
 By default, on CentOS, members of the `wheel` group have sudo privileges.
 
-### Start your favorite RDP client and use the VM's public address to connect.
+### Start RDP client and use the VM's public address to connect.
 
 If XRDP session immediately closes after loggin in:
 ```
