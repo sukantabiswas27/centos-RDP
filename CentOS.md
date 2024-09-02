@@ -95,16 +95,19 @@ sudo dnf install microsoft-edge-stable
 ```
 microsoft-edge -version
 ```
-### google chrome on centos
+### First, download Google Chrome
 ```
-sudo yum install epel-release
-sudo yum install google-chrome-stable
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 ```
-### test
+###  install Chrome web browser
 ```
+sudo yum localinstall google-chrome-stable_current_x86_64.rpm
 ```
+###
 ```
+sudo yum upgrade google-chrome-stable
 ```
+###
 ```
 
 
