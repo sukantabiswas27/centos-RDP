@@ -95,9 +95,12 @@ sudo dnf install microsoft-edge-stable
 ```
 microsoft-edge -version
 ```
-
+### google chrome on centos
 ```
+sudo yum install epel-release
+sudo yum install google-chrome-stable
 ```
+### test
 ```
 ```
 ```
