@@ -72,4 +72,36 @@ echo xfce4-session > $HOME/.xsession
 chmod +x .xsession
 ```
 
+### Install Microsoft Edge 
+```
+sudo dnf clean all
+sudo dnf update
+
+```
+### Let’s add the Microsoft Edge repository
+```
+sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
+```
+###Next, import the GPG key:
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+```
+### install Microsoft Edge
+```
+sudo dnf update
+sudo dnf install microsoft-edge-stable
+```
+### Verify the build and version of Edge:
+```
+microsoft-edge -version
+```
+
+```
+```
+```
+```
+```
+```
+```
+
 
