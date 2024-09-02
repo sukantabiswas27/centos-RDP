@@ -1,5 +1,7 @@
 ### Downlod the CT in Proxmox
+```
 centos-9-stream-default_20221109_amd64.tar.xz
+```
 
 ### Update the system
 ```
