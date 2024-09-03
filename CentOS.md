@@ -29,7 +29,7 @@ sudo yum clean all
 ```
 
 ### Install XRDP
-```
+````
 sudo yum -y install xrdp tigervnc-server
 ```
 
